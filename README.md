@@ -1,3 +1,5 @@
+**!!THIS FORK ALLOWS FOR SENTIMENT ANALYSIS IN PYTHON 3!!** (no other functionality has been tested)
+
 Pattern
 =======
 
