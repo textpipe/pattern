@@ -51,7 +51,7 @@ if sys.argv[-1] == "zip":
 
 setup(
             name = "textpipe-pattern",
-         version = "3.6",
+         version = "3.6.1",
      description = "Web mining module for Python.",
          license = "BSD",
           author = "Tom De Smedt",
@@ -138,7 +138,7 @@ setup(
         "future",
         "backports.csv",
         "beautifulsoup4",
-        "lxml",
+        "lxml==4.3.2",
         "feedparser",
         "pdfminer" if sys.version < "3" else "pdfminer.six",
         "numpy",
